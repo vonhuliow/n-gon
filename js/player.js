@@ -48,14 +48,14 @@ const m = {
     lastKillCycle: 0,
     lastHarmCycle: 0,
     width: 50,
-    radius: 30,
+    radius: 50,
     eyeFillColor: null,
     fillColor: null, //set by setFillColors
     fillColorDark: null, //set by setFillColors
     bodyGradient: null, //set by setFillColors
     color: {
-        hue: 0,
-        sat: 0,
+        hue:10,
+        sat: 60,
         light: 100,
     },
     setFillColors() {
@@ -7061,4 +7061,5 @@ const m = {
             }
         }
     },
+
 };
